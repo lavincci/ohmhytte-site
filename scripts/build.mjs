@@ -63,12 +63,14 @@ async function card(video, short) {
   ].join('');
 }
 
+const saved = JSON.parse(await readFile(dataFile, 'utf8').catch(() => '{"films":[],"shorts":[]}'));
+
 let latest;
 try {
   latest = await readFeed();
 } catch (err) {
   console.warn(`Using the saved list: ${err.message}`);
-  latest = JSON.parse(await readFile(dataFile, 'utf8'));
+  latest = saved;
 }
 
 await rm(dist, { recursive: true, force: true });
@@ -86,6 +88,13 @@ for (const file of await readdir(join(parts, 'icons'))) {
 
 const films = await Promise.all(latest.films.map((v) => card(v, false)));
 const shorts = await Promise.all(latest.shorts.map((v) => card(v, true)));
+
+// Pages stay cached for about 10 minutes, so the last list's images stay online for one more build.
+await Promise.all(
+  [...saved.films.map((v) => saveThumb(v.id, false)), ...saved.shorts.map((v) => saveThumb(v.id, true))].map((p) =>
+    p.catch(() => {}),
+  ),
+);
 
 let html = await readFile(join(root, 'src', 'index.html'), 'utf8');
 html = html
