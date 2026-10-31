@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ohmhytte: cinematic films about science, space and technology</title>
+  <meta name="description" content="Cinematic films about science, space and technology. Watch Ohmhytte on YouTube, TikTok, Instagram and X.">
+  <meta name="theme-color" content="#060606">
+  <link rel="canonical" href="https://ohmhytte.com/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ohmhytte">
+  <meta property="og:url" content="https://ohmhytte.com/">
+  <meta property="og:title" content="Ohmhytte">
+  <meta property="og:description" content="Cinematic films about science, space and technology.">
+  <meta property="og:image" content="https://ohmhytte.com/assets/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ohmhytte">
+
+  <link rel="preload" href="/assets/jost.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/hero.webp" as="image" media="(orientation: landscape)">
+  <link rel="preload" href="/assets/hero-portrait.webp" as="image" media="(orientation: portrait)">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ohmhytte",
+    "url": "https://ohmhytte.com/",
+    "logo": "https://ohmhytte.com/apple-touch-icon.png",
+    "description": "Cinematic films about science, space and technology.",
+    "sameAs": [
+      "https://www.youtube.com/@Ohmhytte",
+      "https://www.tiktok.com/@ohmhyttee",
+      "https://www.instagram.com/ohmhytte/",
+      "https://x.com/ohmhytte"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <picture class="hero__still">
+      <source media="(orientation: portrait)" srcset="/assets/hero-portrait.webp" width="1080" height="1920">
+      <img src="/assets/hero.webp" alt="" width="1920" height="1080" fetchpriority="high">
+    </picture>
+    <video class="hero__film" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+
+    <div class="hero__title">
+      <h1 aria-label="Ohmhytte">{{wordmark}}</h1>
+      <p>Cinematic films about science, space and&nbsp;technology.</p>
+    </div>
+
+    <nav class="platforms" aria-label="Ohmhytte on other platforms">
+      <a class="platform" href="https://www.youtube.com/@Ohmhytte" target="_blank" rel="me noopener">
+        <span class="platform__icon">{{icon:youtube}}</span>
+        <span class="platform__name">YouTube</span>
+        <span class="platform__meta"><span>Films and Shorts</span> <span>@Ohmhytte</span></span>
+        <span class="platform__go">{{arrow}}</span>
+      </a>
+      <a class="platform" href="https://www.tiktok.com/@ohmhyttee" target="_blank" rel="me noopener">
+        <span class="platform__icon">{{icon:tiktok}}</span>
+        <span class="platform__name">TikTok</span>
+        <span class="platform__meta"><span>Shorts</span> <span>@ohmhyttee</span></span>
+        <span class="platform__go">{{arrow}}</span>
+      </a>
+      <a class="platform" href="https://www.instagram.com/ohmhytte/" target="_blank" rel="me noopener">
+        <span class="platform__icon">{{icon:instagram}}</span>
+        <span class="platform__name">Instagram</span>
+        <span class="platform__meta"><span>Reels</span> <span>@ohmhytte</span></span>
+        <span class="platform__go">{{arrow}}</span>
+      </a>
+      <a class="platform" href="https://x.com/ohmhytte" target="_blank" rel="me noopener">
+        <span class="platform__icon">{{icon:x}}</span>
+        <span class="platform__name">X</span>
+        <span class="platform__meta"><span>Posts</span> <span>@ohmhytte</span></span>
+        <span class="platform__go">{{arrow}}</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="row" aria-labelledby="films">
+      <div class="row__label">
+        <h2 id="films">Latest films</h2>
+        <a class="more" href="https://www.youtube.com/@Ohmhytte/videos" target="_blank" rel="noopener">All films {{arrow}}</a>
+      </div>
+      {{films}}
+    </section>
+
+    <section class="row row--shorts" aria-labelledby="shorts">
+      <div class="row__label">
+        <h2 id="shorts">Latest shorts</h2>
+        <a class="more" href="https://www.youtube.com/@Ohmhytte/shorts" target="_blank" rel="noopener">All shorts {{arrow}}</a>
+      </div>
+      {{shorts}}
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>&copy; {{year}} Ohmhytte</span>
+    <nav aria-label="Platforms">
+      <a href="https://www.youtube.com/@Ohmhytte" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.tiktok.com/@ohmhyttee" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/ohmhytte/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/ohmhytte" target="_blank" rel="noopener">X</a>
+    </nav>
+  </footer>
+</body>
+</html>
