@@ -1,36 +1,36 @@
 {
   "films": [
     {
+      "id": "FEsCuEDgmoE",
+      "title": "What Happens If Earth's Magnetic Field Reverses?",
+      "published": "2026-11-01T19:21:36+00:00"
+    },
+    {
+      "id": "r3jP3wtQ4Yo",
+      "title": "Why the Night Sky Isn't Blazing White",
+      "published": "2026-11-01T17:12:27+00:00"
+    },
+    {
       "id": "qpB9FOuoBfQ",
       "title": "The Plane That Can Fly With One Engine Missing",
       "published": "2026-11-01T15:07:10+00:00"
-    },
-    {
-      "id": "Hz8LpQiSItM",
-      "title": "Why a Magnet Falls Slowly Through a Copper Pipe",
-      "published": "2026-11-01T13:07:29+00:00"
-    },
-    {
-      "id": "9wskAty41RM",
-      "title": "Anthropic's AI Agents Found a Way Past a Safety Monitor",
-      "published": "2026-11-01T11:09:49+00:00"
     }
   ],
   "shorts": [
     {
+      "id": "ZmPh8hQNi8c",
+      "title": "North Becomes South. It Takes Thousands of Years.",
+      "published": "2026-11-01T19:27:04+00:00"
+    },
+    {
+      "id": "lYWLHqquQg0",
+      "title": "Why Isn't the Whole Night Sky Bright?",
+      "published": "2026-11-01T17:14:29+00:00"
+    },
+    {
       "id": "57UhsyKtSnk",
       "title": "Why a Plane Doesn't Fall When an Engine Stops",
       "published": "2026-11-01T15:09:31+00:00"
-    },
-    {
-      "id": "Q70Jhw9PPRo",
-      "title": "Why Copper Slows a Falling Magnet",
-      "published": "2026-11-01T13:11:07+00:00"
-    },
-    {
-      "id": "5_dlFXrf2Q0",
-      "title": "Harmless-Looking Stories Passed an AI Safety Monitor",
-      "published": "2026-11-01T11:12:05+00:00"
     }
   ]
 }
