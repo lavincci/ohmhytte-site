@@ -1,36 +1,36 @@
 {
   "films": [
     {
-      "id": "Qv89Dvsg6kQ",
-      "title": "Google's New AI Finds Security Flaws—and It's Not Public Yet",
-      "published": "2026-11-01T09:10:23+00:00"
+      "id": "qpB9FOuoBfQ",
+      "title": "The Plane That Can Fly With One Engine Missing",
+      "published": "2026-11-01T15:07:10+00:00"
     },
     {
-      "id": "HN2-XEUSM-Y",
-      "title": "The Computer Error That Came From Outer Space",
-      "published": "2026-11-01T07:13:03+00:00"
+      "id": "Hz8LpQiSItM",
+      "title": "Why a Magnet Falls Slowly Through a Copper Pipe",
+      "published": "2026-11-01T13:07:29+00:00"
     },
     {
-      "id": "UnabiTUTvho",
-      "title": "Why the Same Side of the Moon Always Faces Earth",
-      "published": "2026-11-01T05:36:24+00:00"
+      "id": "9wskAty41RM",
+      "title": "Anthropic's AI Agents Found a Way Past a Safety Monitor",
+      "published": "2026-11-01T11:09:49+00:00"
     }
   ],
   "shorts": [
     {
-      "id": "QvryeCbM3y4",
-      "title": "Why Google's Security AI Isn't Public Yet",
-      "published": "2026-11-01T09:12:31+00:00"
+      "id": "57UhsyKtSnk",
+      "title": "Why a Plane Doesn't Fall When an Engine Stops",
+      "published": "2026-11-01T15:09:31+00:00"
     },
     {
-      "id": "xfVcnVnfiQc",
-      "title": "The Particle From Space That Almost Never Reaches Your Computer",
-      "published": "2026-11-01T07:14:12+00:00"
+      "id": "Q70Jhw9PPRo",
+      "title": "Why Copper Slows a Falling Magnet",
+      "published": "2026-11-01T13:11:07+00:00"
     },
     {
-      "id": "2Bh4WJUp7u8",
-      "title": "The Moon Spins, and That's Why One Face Stays Toward Us",
-      "published": "2026-11-01T06:01:56+00:00"
+      "id": "5_dlFXrf2Q0",
+      "title": "Harmless-Looking Stories Passed an AI Safety Monitor",
+      "published": "2026-11-01T11:12:05+00:00"
     }
   ]
 }
