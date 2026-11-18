@@ -1,36 +1,36 @@
 {
   "films": [
     {
+      "id": "qtI_Oi5wVjQ",
+      "title": "The Stars That Vanish Without Exploding",
+      "published": "2026-11-18T13:11:01+00:00"
+    },
+    {
+      "id": "RCEtKQBetAc",
+      "title": "The Rocket Engine That Heats Fuel Without Burning It",
+      "published": "2026-11-18T10:58:13+00:00"
+    },
+    {
       "id": "imK4bHEzwOA",
       "title": "How a Router Problem Grounded Flights Across America",
       "published": "2026-11-18T01:15:10+00:00"
-    },
-    {
-      "id": "eqI7SUIOkk8",
-      "title": "Why Most Jet Engine Thrust Comes From the Giant Fan",
-      "published": "2026-11-17T22:20:54+00:00"
-    },
-    {
-      "id": "CS-1h-pWX9M",
-      "title": "Why Solid-State Batteries Can Still Grow Dangerous Spikes",
-      "published": "2026-11-17T19:08:39+00:00"
     }
   ],
   "shorts": [
     {
+      "id": "9RsQDalWtsM",
+      "title": "Can a Giant Star Die Without Exploding?",
+      "published": "2026-11-18T13:15:05+00:00"
+    },
+    {
+      "id": "L07wnYh3Sng",
+      "title": "How Can a Nuclear Rocket Work Without Burning Fuel?",
+      "published": "2026-11-18T11:01:32+00:00"
+    },
+    {
       "id": "jWAvOd00GsU",
       "title": "How Did a Router Problem Ground Flights Across America?",
       "published": "2026-11-18T01:17:41+00:00"
-    },
-    {
-      "id": "QJfZyT_R0u0",
-      "title": "Where Does a Jet Engine's Thrust Really Come From?",
-      "published": "2026-11-17T22:22:50+00:00"
-    },
-    {
-      "id": "PiiDGWeEOWk",
-      "title": "Can a Solid-State Battery Still Grow Lithium Spikes?",
-      "published": "2026-11-17T19:12:00+00:00"
     }
   ]
 }
